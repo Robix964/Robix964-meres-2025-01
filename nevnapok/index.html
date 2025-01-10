@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Névnap kereső</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Névnap kereső</h1>
+
+        <form action="nevnapok.php" method="GET">
+            <label for="date">Dátum (pl. 4-30):</label>
+            <input type="text" id="date" name="nap" placeholder="pl. 4-30">
+
+            <label for="name">Név (pl. Katalin):</label>
+            <input type="text" id="name" name="nev" placeholder="pl. Katalin">
+
+            <button type="submit">Keresés</button>
+        </form>
+
+    </div>
+</body>
+</html>
